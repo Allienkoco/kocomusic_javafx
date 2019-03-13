@@ -59,7 +59,7 @@ public class musiclistUtil {
 
 		}
 		if (musiclist.isEmpty()) {
-			musiclist.add(new music("原点", "", "", "", "", "file:resources/music/原点.mp3", 1));
+			//musiclist.add(new music("原点", "", "", "", "", "file:resources/music/原点.mp3", 1));
 			Alert alert = new Alert(AlertType.WARNING);
 			alert.setHeaderText("路径错误");
 			alert.setContentText(pathurl + "文件夹为空");
@@ -76,7 +76,7 @@ public class musiclistUtil {
 		mp3Util.setNumber(20);
 		musiclistI = mp3Util.getMusiclist();
 		if (musiclistI.isEmpty()) {
-			musiclist.add(new music("原点", "", "", "", "", "file:resources/music/原点.mp3", 1));
+			//musiclist.add(new music("原点", "", "", "", "", "file:resources/music/原点.mp3", 1));
 			Alert alert = new Alert(AlertType.WARNING);
 			alert.setHeaderText("搜索结果");
 			alert.setContentText("为空");
